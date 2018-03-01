@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Quelldateien\JS">
+      <UniqueIdentifier>{afc666f6-9945-40c5-8a12-a0915f0dca83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\JS">
+      <UniqueIdentifier>{b34d177d-a055-49e5-a877-9ea3a572e49c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -20,6 +26,36 @@
     </ClInclude>
     <ClInclude Include="targetver.h">
       <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="JExport.h">
+      <Filter>Headerdateien\JS</Filter>
+    </ClInclude>
+    <ClInclude Include="JInt.h">
+      <Filter>Headerdateien\JS</Filter>
+    </ClInclude>
+    <ClInclude Include="JString.h">
+      <Filter>Headerdateien\JS</Filter>
+    </ClInclude>
+    <ClInclude Include="JCallback.h">
+      <Filter>Headerdateien\JS</Filter>
+    </ClInclude>
+    <ClInclude Include="Native.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="JScriptManager.h">
+      <Filter>Headerdateien\JS</Filter>
+    </ClInclude>
+    <ClInclude Include="JExports.h">
+      <Filter>Headerdateien\JS</Filter>
+    </ClInclude>
+    <ClInclude Include="JObject.h">
+      <Filter>Headerdateien\JS</Filter>
+    </ClInclude>
+    <ClInclude Include="JProperty.h">
+      <Filter>Headerdateien\JS</Filter>
+    </ClInclude>
+    <ClInclude Include="JFloat.h">
+      <Filter>Headerdateien\JS</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -31,6 +67,36 @@
     </ClCompile>
     <ClCompile Include="dllmain.cpp">
       <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="JExport.cpp">
+      <Filter>Quelldateien\JS</Filter>
+    </ClCompile>
+    <ClCompile Include="JString.cpp">
+      <Filter>Quelldateien\JS</Filter>
+    </ClCompile>
+    <ClCompile Include="JInt.cpp">
+      <Filter>Quelldateien\JS</Filter>
+    </ClCompile>
+    <ClCompile Include="JCallback.cpp">
+      <Filter>Quelldateien\JS</Filter>
+    </ClCompile>
+    <ClCompile Include="Native.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="JScriptManager.cpp">
+      <Filter>Quelldateien\JS</Filter>
+    </ClCompile>
+    <ClCompile Include="JExports.cpp">
+      <Filter>Quelldateien\JS</Filter>
+    </ClCompile>
+    <ClCompile Include="JObject.cpp">
+      <Filter>Quelldateien\JS</Filter>
+    </ClCompile>
+    <ClCompile Include="JProperty.cpp">
+      <Filter>Quelldateien\JS</Filter>
+    </ClCompile>
+    <ClCompile Include="JFloat.cpp">
+      <Filter>Quelldateien\JS</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
